@@ -1,5 +1,12 @@
+import type { Metadata } from 'next';
+
 import { Header } from './components/header';
 import './globals.scss';
+
+export const metadata: Metadata = {
+  title: 'Psychologists',
+  description: 'Find professional psychologists for your needs',
+}
 
 export default function RootLayout({
   children,
@@ -8,9 +15,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <title>Psychologists</title>
-      </head>
       <body>
         <Header />
         <main>
