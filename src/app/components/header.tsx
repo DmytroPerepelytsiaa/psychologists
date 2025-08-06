@@ -1,8 +1,7 @@
 import Link from 'next/link';
 
+import { Button } from '@components/ui/button';
 import { ButtonAppearance } from '@types/ui.type';
-
-import { Button } from './ui/button';
 
 export const Header = () => {
   return (

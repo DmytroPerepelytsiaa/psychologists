@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Psychologists',
   description: 'Find professional psychologists for your needs',
-}
+};
 
 export default function RootLayout({
   children,
