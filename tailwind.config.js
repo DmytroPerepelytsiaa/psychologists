@@ -7,6 +7,11 @@ module.exports = {
     extend: {
       colors: {
         'white-primary-color': 'var(--white-primary-color)',
+        'black-primary-color': 'var(--black-primary-color)',
+        'black-primary-color-20': 'var(--black-primary-color-20)',
+        'orange-primary-color': 'var(--orange-primary-color)',
+        'orange-primary-color-10': 'var(--orange-primary-color-10)',
+        'orange-secondary-color': 'var(--orange-secondary-color)',
       }
     },
   },
