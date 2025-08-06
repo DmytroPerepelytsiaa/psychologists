@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 @import './styles/variables.scss';
+
+body {
+  color: var(--black-primary-color); 
+}
