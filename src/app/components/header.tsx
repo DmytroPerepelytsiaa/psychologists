@@ -20,7 +20,7 @@ export const Header = () => {
           <Button>Registration</Button>
         </div>
       </header>
-      <hr className='border-black-primary-color opacity-10'></hr>
+      <hr className='border-black-primary-color opacity-10' />
     </>
   );
 };
