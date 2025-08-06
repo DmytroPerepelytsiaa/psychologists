@@ -16,7 +16,7 @@ const appearanceClasses = {
 export const Button = ({ children, classes = '', appearance = ButtonAppearance.Primary }: ButtonProps) => {
   return (
     <button 
-      className={clsx(appearanceClasses[appearance], 'px-10 py-3.5 rounded-full transition-colors duration-300 font-medium', classes)}
+      className={clsx(appearanceClasses[appearance], 'px-10 py-3.5 rounded-full transition-colors duration-300 font-medium text-nowrap', classes)}
     >
       {children}
     </button>
