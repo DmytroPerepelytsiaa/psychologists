@@ -12,6 +12,8 @@ module.exports = {
         'orange-primary-color': 'var(--orange-primary-color)',
         'orange-primary-color-10': 'var(--orange-primary-color-10)',
         'orange-secondary-color': 'var(--orange-secondary-color)',
+        'yellow-primary-color': 'var(--yellow-primary-color)',
+        'green-primary-color': 'var(--green-primary-color)',
       }
     },
   },
